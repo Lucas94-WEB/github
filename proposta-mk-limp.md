@@ -2,6 +2,8 @@
 
 Oferta de criação de site · **R$ 550, pagamento único · entrega única · registro de domínio incluso (conforme disponibilidade)**
 
+Custo recorrente informado ao cliente: **R$ 40/ano de domínio, hospedagem R$ 0/mês** — confira a seção *Custos recorrentes* antes de enviar.
+
 As mensagens abaixo estão em blocos de código e já usam a formatação do WhatsApp
 (`*negrito*` com um asterisco só). Copie o bloco inteiro e cole direto na conversa.
 
@@ -26,6 +28,14 @@ Queria resolver isso pra vocês. O que entra no pacote:
 
 *Valor: R$ 550 — pagamento único.* Sem mensalidade, sem taxa escondida, sem surpresa depois. É um preço exclusivo pra vocês, como cliente que fui atendido e gostei do serviço; meu valor normal pra esse tipo de projeto é bem acima disso.
 
+*O que é recorrente depois — e nada disso é pago pra mim:*
+
+• *Domínio:* R$ 40 por ano no registro.br, o que dá R$ 3,33 por mês. Pago direto lá, no CNPJ de vocês
+• *Hospedagem:* R$ 0 por mês — o site que eu entrego roda em plano gratuito, sem pegadinha e sem limite de visitas que atrapalhe um site de serviços
+• *E-mail profissional* (contato@mklimp.com.br): opcional. Tem versão gratuita que resolve bem; se quiserem a versão paga do Google, fica em torno de R$ 30/mês por caixa
+
+Resumindo: depois dos R$ 550 à vista, manter o site no ar custa *R$ 40 por ano*. Só isso. Nenhuma mensalidade pra mim, e vocês não ficam presos: domínio e hospedagem ficam no nome da MK Limp, então se um dia quiserem levar pra outra pessoa, é só levar.
+
 *Entrega única:* vocês me passam a logo, algumas fotos dos trabalhos e a lista de serviços, e eu devolvo o site pronto e publicado em até 7 dias. Sem reunião longa, sem enrolação — uma entrega só, já funcionando.
 
 Se fizer sentido, me chama aqui que eu monto um rascunho pra vocês verem antes mesmo de fechar qualquer coisa. 🙂
@@ -42,7 +52,7 @@ Trabalho com criação de sites e vi que a MK Limp tem 4,9 ★ com 117 avaliaç�
 
 Faço o site completo de vocês: serviços, galeria de antes e depois, avaliações, formulário e botão de WhatsApp, *registro de domínio incluso* (checo a disponibilidade e registro no CNPJ da MK Limp), hospedagem e otimização pro Google.
 
-*R$ 550, pagamento único, entrega única em até 7 dias.* Sem mensalidade. Preço exclusivo pra vocês por terem me atendido tão bem.
+*R$ 550, pagamento único, entrega única em até 7 dias.* Sem mensalidade pra mim. O único custo fixo depois é o domínio: R$ 40 por ano no registro.br (R$ 3,33/mês), pago no CNPJ de vocês — a hospedagem que eu uso é R$ 0/mês. Preço exclusivo pra vocês por terem me atendido tão bem.
 
 Quer que eu monte um rascunho pra você ver antes de decidir?
 ```
@@ -52,6 +62,7 @@ Quer que eu monte um rascunho pra você ver antes de decidir?
 ## Ajustes antes de enviar
 
 - Troque **7 dias** pelo prazo que você consegue cumprir com folga.
+- **Confirme os valores recorrentes com a sua própria operação** antes de enviar (seção *Custos recorrentes*). Se você for hospedar em plano pago, troque o "R$ 0 por mês" pelo valor real — prometer R$ 0 e cobrar depois destrói a confiança que a mensagem constrói.
 - Se não for cobrar a renovação do domínio a partir do 2º ano, escreva "1º ano incluso" para não gerar mal-entendido depois.
 - **Confira a disponibilidade dos domínios antes de enviar** (lista abaixo) — prometer um nome já registrado queima a proposta logo na primeira resposta.
 - Mande no mesmo número em que você marcou a limpeza — a conversa já existe e o contexto fica natural.
@@ -80,3 +91,24 @@ Pontos práticos:
 - `.com.br` exige **CPF ou CNPJ do titular**. Registre no CNPJ da MK Limp desde o começo: é isso que sustenta a frase "o domínio fica no nome de vocês" e evita discussão lá na frente.
 - Se `mklimp.com.br` estiver ocupado, não improvise na conversa. Use: *"Checei o registro: o mklimp.com.br já está ocupado, mas o mklimpestofados.com.br está livre e funciona até melhor pra busca no Google. Registro esse no CNPJ de vocês, incluso no mesmo valor."*
 - Se quiser que eu cheque daqui, libere `registro.br` em **Network access** nas configurações do ambiente (menu do ambiente na barra de título → Edit → Allowed domains, mantendo "Allow package managers" marcado): https://code.claude.com/docs/en/cloud-environments#network-access
+
+---
+
+## Custos recorrentes — como apresentar
+
+A lógica da mensagem é: *pagamento único pra mim, custo recorrente baixo e pago por eles, direto na fonte*. Isso tira a objeção "e depois vem mensalidade?" antes dela aparecer, e o número fica pequeno o suficiente (R$ 40/ano) pra não assustar.
+
+| Item | Valor | Quem paga | Obrigatório? |
+|---|---|---|---|
+| Domínio `.com.br` | R$ 40/ano (≈ R$ 3,33/mês) | MK Limp, direto no registro.br | Sim |
+| Hospedagem (site estático em plano gratuito) | R$ 0/mês | — | Sim, mas sem custo |
+| Hospedagem compartilhada, se preferir plano pago | ≈ R$ 10 a R$ 15/mês na entrada; a renovação costuma subir | MK Limp | Não |
+| E-mail profissional (contato@mklimp.com.br) | R$ 0 em plano gratuito; ≈ R$ 30/mês por caixa no Google Workspace | MK Limp | Não |
+| Manutenção/alterações futuras | combinar por demanda | MK Limp | Não |
+
+Observações:
+
+- **R$ 40/ano é o preço oficial do NIC.br** para domínios `.br`, com possibilidade de contratar até 10 anos de uma vez. Registradores revendedores cobram mais (R$ 40 a R$ 80/ano) — registre direto no registro.br.
+- **Confirme os valores no dia do envio.** Preços de hospedagem variam e quase sempre são promocionais na contratação: o valor de renovação é maior. Se for usar plano pago, cite o preço de renovação, não o de entrada.
+- **Deixe claro quem cobra o quê.** O ponto forte da proposta é que nenhum valor recorrente passa por você: os R$ 550 são integralmente seus e os R$ 40/ano vão direto pro registro.br.
+- **Manutenção:** se você pretende cobrar por alterações futuras, diga desde já ("alterações pontuais depois a gente combina por demanda"). Deixar isso implícito é o que gera atrito três meses depois.
