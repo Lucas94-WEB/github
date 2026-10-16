@@ -112,3 +112,40 @@ Observações:
 - **Confirme os valores no dia do envio.** Preços de hospedagem variam e quase sempre são promocionais na contratação: o valor de renovação é maior. Se for usar plano pago, cite o preço de renovação, não o de entrada.
 - **Deixe claro quem cobra o quê.** O ponto forte da proposta é que nenhum valor recorrente passa por você: os R$ 550 são integralmente seus e os R$ 40/ano vão direto pro registro.br.
 - **Manutenção:** se você pretende cobrar por alterações futuras, diga desde já ("alterações pontuais depois a gente combina por demanda"). Deixar isso implícito é o que gera atrito três meses depois.
+
+---
+
+## Hospedagem — por que dá R$ 0/mês (e onde o R$ 0 vale de verdade)
+
+### O mecanismo
+
+O site da MK Limp é um **site estático**: HTML, CSS, JavaScript e imagens prontos, sem banco de dados e sem nada processando no servidor. O formulário "cai no WhatsApp" porque é um link `wa.me` com a mensagem pré-preenchida pelo próprio navegador — não precisa de servidor enviando e-mail.
+
+Para quem hospeda, entregar arquivos prontos de um CDN custa quase nada: não há processamento por visita, só arquivo em cache sendo servido. Por isso essas plataformas dão o plano grátis — é isca para atrair desenvolvedores que depois pagam pelos planos de empresa. Um site de serviços local, com algumas centenas ou milhares de visitas por mês, usa uma fração mínima dos limites.
+
+No plano grátis já vem incluso: domínio próprio apontado, **HTTPS/SSL gratuito**, CDN global e publicação automática a cada atualização.
+
+### A pegadinha: nem todo plano grátis permite site comercial
+
+Esta é a parte que importa pra você não se queimar depois:
+
+| Plataforma | Uso comercial | Observação |
+|---|---|---|
+| **Cloudflare Pages** | ✅ Permitido | Banda e requisições ilimitadas, 500 builds/mês, 100 domínios por projeto, até 20.000 arquivos e 25 MiB por arquivo. **É a escolha certa aqui.** |
+| Netlify | ⚠️ Permitido, com limites | Migrou para cobrança por créditos (300/mês no gratuito); um site simples cabe, mas acompanhe o consumo |
+| **Vercel (Hobby)** | ❌ **Proibido** | A política de uso justo restringe o Hobby a uso pessoal não comercial; site que gera orçamento e divulga serviço pago é comercial. Exige plano Pro |
+| **GitHub Pages** | ❌ Proibido | A política exclui sites de negócio e e-commerce do plano gratuito |
+
+Ou seja: hospede no **Cloudflare Pages**. Em Vercel Hobby ou GitHub Pages, o site de um cliente que vende serviço viola os termos — e você descobre isso no dia em que a conta é suspensa, com o cliente te ligando.
+
+Vale conferir os termos atuais na página oficial de cada uma antes de publicar; as políticas mudam e a maioria das comparações acima é de terceiros.
+
+### O que o grátis *não* cobre
+
+- **Domínio** — R$ 40/ano no registro.br, inevitável
+- **E-mail profissional** (`contato@mklimp.com.br`) — hospedagem de site não inclui e-mail. Use plano gratuito de e-mail ou Google Workspace (≈ R$ 30/mês por caixa)
+- **Qualquer coisa com servidor** — painel administrativo, área de login, agendamento online com banco de dados. Se um dia a MK Limp quiser isso, aí entra custo mensal, e vale avisar na hora
+
+### Resposta pronta, se eles perguntarem "como assim de graça?"
+
+> "O site de vocês é um site estático — as páginas já vão prontas, não tem sistema rodando por trás. Empresas como a Cloudflare servem esse tipo de site de graça porque o custo pra elas é quase zero e elas ganham dinheiro nos planos grandes. O plano gratuito já inclui certificado de segurança (o cadeado), domínio próprio e carregamento rápido no Brasil inteiro. A única coisa que tem custo fixo é o domínio: R$ 40 por ano, pago direto no registro.br, no CNPJ de vocês. Se um dia precisarem de algo com sistema por trás, tipo agendamento online, aí sim entraria um custo mensal — e eu aviso antes."
